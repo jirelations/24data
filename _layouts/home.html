@@ -3,7 +3,8 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
+{% assign sorted-posts = paginator.posts | sort: 'post_date' | reverse %}
+{% for post in sorted-posts %}
   {% include featured-post.html %}
 {% endfor %}
 
