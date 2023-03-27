@@ -5,7 +5,9 @@ title: Home
 
 {% assign sorted-posts = paginator.posts | sort: 'post_date' | reverse %}
 {% for post in sorted-posts %}
-  {% include featured-post.html %}
+  {% if post.level == "overview" %}
+    {% include featured-post.html %}
+  {% endif %}
 {% endfor %}
 
 <!-- Pagination links -->
