@@ -60,5 +60,5 @@ module Jekyll
 end
 
 Liquid::Template.register_filter(Jekyll::Revealify)
-Footer
-© 2023
+# Footer
+# © 2023
