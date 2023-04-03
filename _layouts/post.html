@@ -15,6 +15,16 @@ layout: default
     </div>
   {% endif %}
   <article>
+    
+    <a href="{{ site.data.settings.zotero-base }}/tags/{{ page.zotero-tag }}/library" class="menu-link">
+      <i class="fa-solid fa-book" aria-hidden="true"></i>
+      Readings
+    </a>
+
+    <a href="{{ site.data.settings.pad-base }}{{ page.pad-slug }}" class="menu-link">
+      <i class="fa-solid fa-clipboard" aria-hidden="true"></i>
+      Shared workspace
+    </a>
     {{ content }}
   </article>
   {% if site.hide_post_share != true %}

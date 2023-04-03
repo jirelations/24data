@@ -23,6 +23,9 @@ social:
 - {fa-class: 'solid', icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
+zotero-base: 'https://www.zotero.org/groups/4998189/23rabbinisch'
+pad-base: 'https://pad.gwdg.de/23rabbinisch'
+
 # Customize site text
 pagination:
   next_page: 'Newer'
