@@ -3,7 +3,7 @@ layout: reveal
 title: "Text Formatting"
 author: "Paul Le"
 categories: sample
-tags: [sample]
+tags: [1,slides]
 image: arctic-1.jpg
 ---
 
