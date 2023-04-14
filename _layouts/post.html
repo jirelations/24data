@@ -5,7 +5,7 @@ layout: default
 {% assign sessions = site.data.sessions | where: "session",page.session | first %}
 
 <!-- If frontmatter title is empty, Jekyll sets page.title to extension after post date. Thus value from sessions preferred here. -->
-{% assign title = sessions.title | default: page.title%}
+{% assign title = sessions.title | default: page.title %}
 {% assign image = page.image | default: sessions.image %}
 {% assign zotero-tag = page.zotero-tag | default: sessions.zotero-tag %}
 {% assign pad-slug = page.pad-slug | default: sessions.pad-slug %}
