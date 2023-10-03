@@ -38,6 +38,10 @@ layout: default
     <a href="{{ site.data.settings.pad-base }}{{ pad-slug }}" class="menu-link">
       Shared workspace
     </a>
+    {% if page.objective %}
+      <h2><i class="fa-solid fa-check"></i> Learning objective</h2>
+      {{ page.objective }}
+    {% endif %}
     {% include readings.html %}
     {{ content }}
   </article>
