@@ -16,4 +16,50 @@ article h2 {
  .slides {
 	box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .5);
 }
+
+/* Height must be set on this parent element to allow 
+child elements to have specified height.  */
+.present {
+    height: 100%;
+}
+
+/* Container for a row of images in slide that 
+automatically flex and fill row. */
+.img-row {
+    display: flex
+}
+
+/* Images can be as background image in separate divs. */
+.img-row>div {
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+}
+
+/* Or as image elements. */
+.img-row>img { 
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Row height, if specified, is proportional to 12. */
+.row-2 {
+    height: calc(100% * 2/12);
+}
+
+.row-3 {
+    height: calc(100% * 3/12);
+}
+
+.row-4 {
+    height: calc(100% * 4/12);
+}
+
+.row-10 {
+    height: calc(100% * 10/12);
+}
+
+.row-12 {
+    height: calc(100% * 12/12);
 }

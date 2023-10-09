@@ -5,6 +5,7 @@ author: "Paul Le"
 categories: sample
 tags: [1,slides]
 image: arctic-1.jpg
+parallaxBackgroundImage: 'assets/img/arctic-1.jpg'
 ---
 
 # Markdown Support
