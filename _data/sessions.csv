@@ -1,7 +1,85 @@
-﻿blank,session,title,pad-slug,image,zotero-tag,objective
-,1,,,,,
-,2,,,,,
-,3,,,,,
-,4,,,,,
-,5,,,,,
-,6,,,,,
+﻿blank,session,date,filename,unit,topic,title,pad-slug,image,zotero-tag,zotero-readings,objective,tags,contents
+,1,,1900-01-00,,,1. ,1,,1-,,,[1],"---
+layout: post
+session: 1
+tags: [1]
+level: overview
+---"
+,2,,1900-01-00,,,2. ,2,,2-,,,[2],"---
+layout: post
+session: 2
+tags: [2]
+level: overview
+---"
+,3,,1900-01-00,,,3. ,3,,3-,,,[3],"---
+layout: post
+session: 3
+tags: [3]
+level: overview
+---"
+,4,,1900-01-00,,,4. ,4,,4-,,,[4],"---
+layout: post
+session: 4
+tags: [4]
+level: overview
+---"
+,5,,1900-01-00,,,5. ,5,,5-,,,[5],"---
+layout: post
+session: 5
+tags: [5]
+level: overview
+---"
+,6,,1900-01-00,,,6. ,6,,6-,,,[6],"---
+layout: post
+session: 6
+tags: [6]
+level: overview
+---"
+,7,,1900-01-00,,,7. ,7,,7-,,,[7],"---
+layout: post
+session: 7
+tags: [7]
+level: overview
+---"
+,8,,1900-01-00,,,8. ,8,,8-,,,[8],"---
+layout: post
+session: 8
+tags: [8]
+level: overview
+---"
+,9,,1900-01-00,,,9. ,9,,9-,,,[9],"---
+layout: post
+session: 9
+tags: [9]
+level: overview
+---"
+,10,,1900-01-00,,,10. ,10,,10-,,,[10],"---
+layout: post
+session: 10
+tags: [10]
+level: overview
+---"
+,11,,1900-01-00,,,11. ,11,,11-,,,[11],"---
+layout: post
+session: 11
+tags: [11]
+level: overview
+---"
+,12,,1900-01-00,,,12. ,12,,12-,,,[12],"---
+layout: post
+session: 12
+tags: [12]
+level: overview
+---"
+,13,,1900-01-00,,,13. ,13,,13-,,,[13],"---
+layout: post
+session: 13
+tags: [13]
+level: overview
+---"
+,14,,1900-01-00,,,14. ,14,,14-,,,[14],"---
+layout: post
+session: 14
+tags: [14]
+level: overview
+---"
