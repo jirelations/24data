@@ -7,11 +7,10 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Q&A',  url: 'qa'}
+- {name: 'OLAT',  url: 'olat'}
 - {name: 'Etherpad',  url: 'pad'}
 - {name: 'Polls',  url: 'poll'}
 - {name: 'Zotero',  url: 'zotero'}
-- {name: 'OLAT',  url: 'olat'}
 - {name: 'Chat',  url: 'chat'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
