@@ -8,6 +8,7 @@ layout: default
 {% assign title = sessions.title | default: page.title %}
 {% assign image = page.image | default: sessions.image %}
 {% assign zotero-tag = page.zotero-tag | default: sessions.zotero-tag %}
+{% assign zotero-readings = page.zotero-readings | default: sessions.zotero-readings %}
 {% assign pad-slug = page.pad-slug | default: sessions.pad-slug %}
 {% assign objective = page.objective | default: sessions.objective %}
 
@@ -20,12 +21,23 @@ layout: default
   {% endif %}
   {% if image %}
     <div class="featured-image">
+      <figure>
         <img src="{{ site.github.url }}/assets/img/{{ image }}">
+        <figcaption>
+          Image: 
+          {% capture image_attribution %}
+            {% include_relative {{ image }}-attribution.md %}
+          {% endcapture %}
+          {{ image_attribution }}
+          <!-- Markdownify is rendering this as a code block instead of transforming MD > HTML  -->
+          <!-- {{ image_attribution | markdownify }} -->
+        </figcaption>
+    </figure>
     </div>
   {% endif %}
   <article>
     
-    <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }}/library" class="menu-link">
+    <!-- <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }}/library" class="menu-link">
       <i class="fa-solid fa-book" aria-hidden="true"></i>
     </a>
     <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }}/library" class="menu-link">
@@ -37,11 +49,13 @@ layout: default
     </a>
     <a href="{{ site.data.settings.pad-base }}{{ pad-slug }}" class="menu-link">
       Shared workspace
-    </a>
-    {% if page.objective %}
+    </a> -->
+
+    {% if objective %}
       <h2><i class="fa-solid fa-check"></i> Learning objective</h2>
-      {{ page.objective }}
+      {{ objective }}
     {% endif %}
+
     {% include readings.html %}
     {{ content }}
   </article>
