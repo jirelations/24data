@@ -1,5 +1,5 @@
 <div class="readings">
-    <h2><i class="fa-solid fa-book-open" aria-hidden="true"></i> Required Readings</h2>
+    <h2><i class="fa-solid fa-book-open" aria-hidden="true"></i> Suggested Readings</h2>
     <ul>
         {% for reading in zotero-readings %}
             {% assign bibl = site.data.zotero.references | where:"id",reading %}
@@ -11,9 +11,6 @@
         {% endfor %}
     </ul>    
     Zotero: 
-    <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }},_required/library">Required Readings</a> 
-    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-     | 
-     <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }},_further-reading/library">Further Reading (optional)</a> 
+     <a href="{{ site.data.settings.zotero-base }}/tags/{{ zotero-tag }},_further-reading/library">Further Reading (optional)</a>
      <i class="fa-solid fa-arrow-up-right-from-square"></i>
 </div>

@@ -11,9 +11,9 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 future:              true
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Millennial"
-description:	       "a minimalist Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+title:		           "Entangled Stories"
+description:	       "The History of Jewish-Christian-Muslim Relations in the Premodern Near East (course website, winter semester 2023)"
+author:              "Nathan Gibson"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
