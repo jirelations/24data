@@ -69,20 +69,36 @@ image: markdown.svg
 
 1. Save your changes to the file by pressing `Ctrl+S` (Mac `⌘+S`) or using the File > Save menu in Visual Studio Code.
 2. In Github Desktop, commit your changes and publish your branch (see [Git Tutorial 2.4](git-tutorial)).
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-publish.mov" type="video/mp4">
+    </video> 
 3. Go to <https://gitlab.gwdg.de/24recipes/24recipes.pages.gwdg.de> and log in. Let me know if this is your first time logging into Gitlab, so that I can give you permission to do the merge request. 
 4. Create a Merge Request to get the changes from your branch into the "master" branch. (See [Git Tutorial section 4](git-tutorial)). I will have to manually approve this merge request.
 
+    <video width="450" controls>
+        <source src="assets/img/markdown-merge.mov" type="video/mp4">
+    </video> 
+    
 ### 3. Try some HTML in your Markdown
 
 With Markdown you can do basic text formatting, but with HTML you can do much more. Markdown is normally converted into HTML web pages (or other formats), but you can actually put sections of HTML _into_ your Markdown file when you want to do something fancy. 
 
 1. Open one of the Markdown files from the Recipes project (as in Step 1), but this time <span style="color:red">make a word or short phrase (not more than 1 line) red</span>. You can copy and paste this before the text you want to turn red: `<span style="color:red">` and this after the text: `</span>`. 
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-html-red.mov" type="video/mp4">
+    </video> 
 2. Note the structure of what you inserted. HTML needs a "start tag" -- this is the `<span ...>` and an end tag, the `</span>`. In the start tag you can also have "attributes" -- here, the `style="color:red"` separated by a space from the name of the tag or from other attributes. The whole thing -- everything between the start and end tags -- is called an "element". 
 3. Suppose you want to make the dancing cat image huge. Try this:
     ```html
     <img src="http://i355.photobucket.com/albums/r460/Maddy11_02/cat-dance.gif" width="500px"/>
     ```
     You might notice that the `<img>` element has no end tag, but it does have a weird `/` before the final `>`. In HTML (and XML), there's sometimes no need for text in between tags (as in the case of an image). In these cases a `/>` at the end of your tag signals that the element is complete. A start tag and end tag all in one!
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-html-image.mov" type="video/mp4">
+    </video> 
 4. Save and commit your changes, and sync them to the Recipes project the same way you did in Step 2 above.
 
 ### 4. View the full HTML page
