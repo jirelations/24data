@@ -9,26 +9,61 @@ image: markdown.svg
 ### 1. Edit a Markdown file from the Recipes project
 
 1. In Github Desktop, make sure you have the latest changes from the Recipes project on your computer by changing to the "master" branch and then pressing "Fetch origin" and (if shown) "Pull origin".
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-pull.mov" type="video/mp4">
+    </video>
 2. Follow the steps in the [Git Tutorial section 2](git-tutorial) to create a new branch in Github and open one of the files in the `_posts` directory of the Recipes project using Visual Studio Code.
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-branch.mov" type="video/mp4">
+    </video> 
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-open.mov" type="video/mp4">
+    </video> 
 3. In Visual Studio Code, make a word or phrase **bold** by putting `**` on each side of it. Because Visual Studio Code supports Markdown, you will see the word change to bold when you edit it.
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-bold.mov" type="video/mp4">
+    </video> 
 4. You can check what your Markdown will look like by clicking the "Preview" button to the right of your tab in Visual Studio Code.
 5. Put a word or phrase in _italics_ by putting `_` on each side of it. (You can do the same thing by using `*` instead of `_`.) In Visual Studio Code, you can also use some keyboard shortcuts like `Ctrl+B` for bold and `Ctrl+I` for italics, the same way you would in Microsoft Word. (On Mac: `⌘+B` and `⌘+I`)
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-italics.mov" type="video/mp4">
+    </video> 
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-preview.mov" type="video/mp4">
+    </video> 
 6. Try creating or changing a numbered list by typing a `1.` at the beginning of a line, followed by a space and some text. Then press the `Return`/`Enter` key to create a new line. The next number will automatically be added. For example,  
 
     ```markdown
     1. 200g Flour
     2. ...
     ```
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-list.mov" type="video/mp4">
+    </video>
 7. To add a link, put the text of the link between square brackets `[]`, followed by the web address in parentheses `()`, like this:
     ```markdown
     [text of the link](https://example.com)
     ```
 
+    <video width="450" controls>
+        <source src="assets/img/markdown-link.mov" type="video/mp4">
+    </video> 
     There shouldn't be any space between the `]` and the `(`.
 8. Adding images is similar. Try copying this into your document:  
     ```markdown
     ![Dancing Cat](http://i355.photobucket.com/albums/r460/Maddy11_02/cat-dance.gif)
     ```
+
+    <video width="450" controls>
+        <source src="assets/img/markdown-image.mov" type="video/mp4">
+    </video> 
 
 ### 2. Sync your Markdown file to the Recipes project
 
