@@ -40,7 +40,11 @@ sessions.objective %}
 
     {% if objective %}
     <h2><i class="fa-solid fa-check"></i> Learning objective</h2>
-    {{ objective }} {% endif %} {% include readings.html %} {{ content }}
+    {{ objective }} {% endif %} 
+    {% if zotero-readings.size > 0 %}
+    {% include readings.html %} 
+    {% endif %} 
+    {{ content }}
   </article>
   {% if site.hide_post_share != true %} {% include post-share.html %}
   {% endif %} {% if site.hide_related_posts != true %} {% include
